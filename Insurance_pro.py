@@ -10,7 +10,7 @@ def main():
     """
     st.markdown(html_temp,unsafe_allow_html=True)
     
-    model= joblib.load('C:/Users/ASUS/Desktop/Test_Assignment/Location/Insurance/Gradient_boosting_insurance')
+    model= joblib.load('Gradient_boosting_insurance')
     
     p1= st.slider("Enter your Age",18,100)
     
